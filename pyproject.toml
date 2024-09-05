@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "scrap-fs22"
+version = "0.1.0"
+description = "Scraping dlc in FarmingSimulator22 site"
+authors = ["Alexandr Shevchenko <djpestro@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+bs4 = "^0.0.2"
+pandas = "^2.2.2"
+
+[tool.poetry.group.dev.dependencies]
+requests = "^2.32.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
